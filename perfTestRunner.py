@@ -42,6 +42,7 @@ for phase in testConfig["tests"]:
 
 tests = testConfig["tests"]
 
+print(os.getcwd())
 os.chdir(os.path.abspath(workingDirectory))
 
 def load_results():
